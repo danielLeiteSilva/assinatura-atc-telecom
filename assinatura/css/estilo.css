@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+	*{
+			padding: 0;
+			margin: 0;
+			font-family: futura;
+		}
+
+		#assinatura{
+			width: 592px;
+			height: 152px;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+		#assinatura > img{
+			width: 100%;
+			height: 100%;
+		}
+
+		#assinatura > .site{
+			position: absolute;
+			z-index: 1;
+			top: 232px;
+			right: 400px;
+			color: #808080;
+			font-size: 15.5pt;
+		}
+
+
+		@font-face{
+			font-family: futura;
+			src: url('../font/futura_01.ttf');
+		}
+
+
+		#funcao, #nome, #setor, #celular, #telefone, #email{
+			position: absolute;
+			right: 400px;
+			text-align: right;
+
+		}
+
+		#funcao{
+			top: 123px;
+			font-size: 9pt;
+			text-transform: uppercase;	
+			color: #808080;
+			letter-spacing: -0.5px;
+			
+		}
+
+		#nome{
+			top: 135px;
+			font-size: 18pt;
+			text-transform: uppercase;
+			letter-spacing: -0.5px;
+ 		}
+
+		#setor{
+			top: 163px;
+			font-size: 9pt;
+			text-transform: uppercase;
+			color: #808080;
+		}
+
+		#celular{
+			top: 178px;
+			font-size: 12pt;
+			text-transform: uppercase;	
+		}
+
+		#telefone{
+			top: 198px;
+			font-size: 12pt;
+			text-transform: uppercase;
+		}
+
+		#email{
+			top: 215px;
+			font-size: 13pt;
+			text-transform: lowercase;
+		}
+
+		.linha{
+			width: 100%;
+			height: 0.5px;
+			margin-top: -5px;
+			background-color: #000;
+		}
+
+
+		.incremento{
+			width: 592px;
+			height: 100%;
+			display: block;
+			position: relative;
+			margin: 20px auto;
+		}
+
+
+
+		.incremento > input{
+			width: calc(100%);	
+			position: relative;
+			display: block;	 
+			margin: 10px auto;
+			right: 0; 
+			text-align: left;
+			padding: 5px;
+			box-sizing: border-box;
+			font-family: 'Arial';
+			letter-spacing: -1px;
+			font-size: 12pt;
+			border: none;
+			border-radius: 4px; 
+			box-shadow: 0px 0px 20px #cccc;
+			
+
+		}
+
+		.incremento > input:focus{
+			transition: 0.5s;
+			outline: none;
+		}
+
+
+		#aparecer{
+			width: 100%;
+			height: 870px;
+			background-color: rgb(0,0,0,0.9);
+			position: absolute;
+			display: none;
+			z-index: 1;
+			top: 0;
+		}
+
+		#caixa{
+			position: relative;
+			width: 592px;
+			height: 152px;
+			margin: 300px auto;
+			display: block;
+			z-index: 9999;
+			border: 1px solid red;
+		}
+		
+		.botao{
+			width: 100%;
+			height: 50px;
+			margin-top: 10px;
+			border: none;
+			border-radius: 10px;
+			background-color: transparent;
+			font-size: 15pt;
+			cursor: pointer;
+			color: blue;
+		}
+
+		.sub{
+
+			position: relative;
+			bottom: 200px;
+			color: #fff;
+		}
+
+		.botao:focus{
+			outline: none;
+		}
+
+		.botao:hover{
+			border: 5px solid #008B8B;
+			box-shadow: 0px 0px 20px 1px #708090;
+			color: #008B8B;
+			font-weight: 600;
+		}
+
+		#download{
+			display: none;
+		}
+
+		#rodape{
+			width: 100%;
+			height: 100px;
+			background-color: #000;
+		}
+
+		#topo{
+			width: 100%;
+			height: 100px;
+			background-color: #000;
+			margin-bottom: 10px;
+			color: #fff;
+		}
